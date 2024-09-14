@@ -47,3 +47,27 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 ## From the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ```
+
+```bash
+# Run the following command
+python store_index.py
+```
+
+```bash
+# Finnaly run the following command
+python store_index.py
+```
+
+Now,
+```bash
+open up localhost:8080
+```
+
+
+### Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- Meta Llama2
+- Pinecone
